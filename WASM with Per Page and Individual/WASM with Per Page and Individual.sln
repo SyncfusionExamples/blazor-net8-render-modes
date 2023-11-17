@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASM with Per Page and Individual", "WASM with Per Page and Individual\WASM with Per Page and Individual.csproj", "{E4370B54-4FDC-47ED-BA78-2FD542090D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASM with Per Page and Individual.Client", "WASM with Per Page and Individual.Client\WASM with Per Page and Individual.Client.csproj", "{3D50BCF9-36C7-41C8-819B-46CC34F1CAE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4370B54-4FDC-47ED-BA78-2FD542090D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4370B54-4FDC-47ED-BA78-2FD542090D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4370B54-4FDC-47ED-BA78-2FD542090D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4370B54-4FDC-47ED-BA78-2FD542090D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D50BCF9-36C7-41C8-819B-46CC34F1CAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D50BCF9-36C7-41C8-819B-46CC34F1CAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D50BCF9-36C7-41C8-819B-46CC34F1CAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D50BCF9-36C7-41C8-819B-46CC34F1CAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F86A7E1-B319-464B-9820-3A972DC3C78C}
+	EndGlobalSection
+EndGlobal

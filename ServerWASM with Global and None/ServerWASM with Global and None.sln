@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWASM with Global and None", "ServerWASM with Global and None\ServerWASM with Global and None.csproj", "{3E955DE0-A905-4AF2-999D-6B4926A784BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWASM with Global and None.Client", "ServerWASM with Global and None.Client\ServerWASM with Global and None.Client.csproj", "{91C4E762-6A9B-4AB5-9610-FA8A7A86F995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E955DE0-A905-4AF2-999D-6B4926A784BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E955DE0-A905-4AF2-999D-6B4926A784BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E955DE0-A905-4AF2-999D-6B4926A784BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E955DE0-A905-4AF2-999D-6B4926A784BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C4E762-6A9B-4AB5-9610-FA8A7A86F995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C4E762-6A9B-4AB5-9610-FA8A7A86F995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C4E762-6A9B-4AB5-9610-FA8A7A86F995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C4E762-6A9B-4AB5-9610-FA8A7A86F995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA332AE-5CDA-4146-84D9-E30549CCC584}
+	EndGlobalSection
+EndGlobal
