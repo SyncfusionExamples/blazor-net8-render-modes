@@ -1,10 +1,12 @@
 using Server_with_Global_and_None.Components;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+builder.Services.AddSyncfusionBlazor();
 
 var app = builder.Build();
 

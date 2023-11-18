@@ -8,4 +8,9 @@
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="23.2.4" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="23.2.4" />
+  </ItemGroup>
+
 </Project>
