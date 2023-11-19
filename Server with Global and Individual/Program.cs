@@ -4,12 +4,14 @@ using Microsoft.EntityFrameworkCore;
 using Server_with_Global_and_Individual.Components;
 using Server_with_Global_and_Individual.Components.Account;
 using Server_with_Global_and_Individual.Data;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+builder.Services.AddSyncfusionBlazor();
 
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
