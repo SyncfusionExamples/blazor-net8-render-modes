@@ -11,6 +11,8 @@
   <ItemGroup>
     <ProjectReference Include="..\WASM with Global and None.Client\WASM with Global and None.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="23.1.44" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="23.1.44" />
   </ItemGroup>
 
 </Project>
