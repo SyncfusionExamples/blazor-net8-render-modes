@@ -5,12 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using SSR_with_Global_and_Individual.Components;
 using SSR_with_Global_and_Individual.Components.Account;
 using SSR_with_Global_and_Individual.Data;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
 
+builder.Services.AddSyncfusionBlazor();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
