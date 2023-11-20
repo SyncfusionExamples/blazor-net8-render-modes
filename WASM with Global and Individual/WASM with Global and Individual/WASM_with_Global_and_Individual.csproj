@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-WASM with Global and Individual-e312ab82-2abd-4f6a-a49c-cceb7758d0f5</UserSecretsId>
-    <RootNamespace>WASM with Global and Individual</RootNamespace>
+    <RootNamespace>WASM_with_Global_and_Individual</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 

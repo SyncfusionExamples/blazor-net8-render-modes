@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-Server with Per Page and Individual-7f7cd652-bf57-4902-8579-ff1465b67ae1</UserSecretsId>
-    <RootNamespace>Server with Per Page and Individual</RootNamespace>
+    <RootNamespace>Server_with_Per_Page_and_Individual</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 

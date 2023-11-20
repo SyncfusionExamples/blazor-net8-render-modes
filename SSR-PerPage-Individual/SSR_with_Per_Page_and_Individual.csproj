@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UserSecretsId>aspnet-SSR with Per Page and Individual-024cd262-3b5e-4560-8d03-9a8525ea850f</UserSecretsId>
-		<RootNamespace>SSR with Per Page and Individual</RootNamespace>
+		<RootNamespace>SSR_with_Per_Page_and_Individual</RootNamespace>
 		<AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
 	</PropertyGroup>
 
