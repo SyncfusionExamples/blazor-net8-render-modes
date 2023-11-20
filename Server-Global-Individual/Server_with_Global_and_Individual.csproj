@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-Server with Global and Individual-ca82c38f-7044-4233-ad2e-4ad957f33efc</UserSecretsId>
-    <RootNamespace>Server with Global and Individual</RootNamespace>
+    <RootNamespace>Server_with_Global_and_Individual</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
