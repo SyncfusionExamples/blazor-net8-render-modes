@@ -1,5 +1,6 @@
 using ServerWASM_with_Global_and_None.Client.Pages;
 using ServerWASM_with_Global_and_None.Components;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
+builder.Services.AddSyncfusionBlazor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
