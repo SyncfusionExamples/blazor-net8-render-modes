@@ -5,6 +5,7 @@ using WASM_with_Per_Page_and_Individual.Client.Pages;
 using WASM_with_Per_Page_and_Individual.Components;
 using WASM_with_Per_Page_and_Individual.Components.Account;
 using WASM_with_Per_Page_and_Individual.Data;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
+builder.Services.AddSyncfusionBlazor();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
