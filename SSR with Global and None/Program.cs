@@ -1,9 +1,11 @@
 using SSR_with_Global_and_None.Components;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
+builder.Services.AddSyncfusionBlazor();
 
 var app = builder.Build();
 
